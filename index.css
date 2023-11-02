@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+* > * {
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+  background-color: #202020;
+  color: #fff;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+h3 {
+  text-align: center;
+}
+main {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+.attribution {
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  background-color: white;
+  color: #202020;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
